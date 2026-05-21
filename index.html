@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Fitness Tracker</h1>
+        <div>
+            <input type="text" id="activity" placeholder="Activity">
+            <input type="number" id="time" placeholder="Time(minutes)">
+            <input type="number" id="calories" placeholder="CaloriesBurned">
+            <button onclick="addData()">Add</button>
+            <h2>Dashboard</h2>
+            <p>TotalTime:<span id="totalTime">0</span>min</p>
+            <p>TotalCalories:<span id="totalCalories">0</span>cal</p>
+            
+            <div>
+                <div id="progressBar"></div>
+            </div>
+            <h2>Daily Records</h2>
+            <ul id="list"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
